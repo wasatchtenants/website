@@ -21,16 +21,24 @@
 title: Wasatch Tenants United
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  We are a community based tenants org dedicated to advancing universal access to housing. Our mission is to secure safe and accessible housing for all people in Utah. By tenants, for tenants. 
+  We are a community based tenants org dedicated to advancing universal access to housing.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://wasatchtenants.org" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: WTU_801
-facebook_username: WasatchTenants
+minima:
+  date_format: "%b %-d, %Y"
+  social_links:
+    twitter: WTU_801
+    github: 
+    facebook: WasatchTenants
+    instagram: wasatchtenants
+  twitter_username: WTU_801
+  facebook_username: WasatchTenants
 
 # Build settings
-# theme: minima
+
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
