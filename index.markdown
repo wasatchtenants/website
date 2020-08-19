@@ -4,3 +4,5 @@
 
 layout: home
 ---
+
+<a href="/about"><img src="assets/images/wtu_mission.png"></a><br><br>
